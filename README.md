@@ -87,3 +87,45 @@ This notebook demonstrates fundamental missing-value imputation techniques using
 
 Notebook: Missing_Value_Handling_Strategies.ipynb
 
+
+## Additional Implementation: Data Quality Analysis
+
+This notebook performs exploratory data quality analysis on the Students Performance in Exams dataset using Python.
+
+### Implemented Analysis
+
+1. Dataset Loading
+   - Downloads the dataset using Kaggle API.
+   - Loads StudentsPerformance.csv using Pandas.
+
+2. Dataset Inspection
+   - Examines dataset dimensions.
+   - Inspects column names and data structure.
+   - Generates descriptive statistical summaries.
+
+3. Missing Value Analysis
+   - Identifies missing values.
+   - Calculates missing-value percentages for each column.
+
+4. Duplicate Detection
+   - Identifies duplicate records.
+
+5. Unique Value Analysis
+   - Examines unique values across dataset columns.
+
+6. Data Type Analysis
+   - Identifies numerical and categorical features.
+
+### Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Kaggle API
+
+### Notebook
+
+Data_Quality_Analysis.ipynb
+
