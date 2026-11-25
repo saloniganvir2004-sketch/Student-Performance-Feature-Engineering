@@ -129,3 +129,35 @@ This notebook performs exploratory data quality analysis on the Students Perform
 
 Data_Quality_Analysis.ipynb
 
+
+## Additional Implementation: Outlier Detection and Treatment
+
+This notebook demonstrates outlier identification and treatment techniques using Python, Pandas, NumPy, and Matplotlib.
+
+### Implemented Techniques
+
+1. Dataset Acquisition
+   - Downloads the Students Performance in Exams dataset using Kaggle API.
+   - Loads StudentsPerformance.csv using Pandas.
+
+2. Outlier Visualization
+   - Generates boxplots for Mathematics, Reading, and Writing scores.
+
+3. IQR-Based Outlier Detection
+   - Calculates Q1 and Q3.
+   - Computes the Interquartile Range (IQR).
+   - Determines lower and upper outlier boundaries.
+
+4. Outlier Identification
+   - Identifies extreme Mathematics score values.
+   - Calculates the number of detected outliers.
+
+5. Outlier Removal
+   - Creates a filtered dataset without detected Mathematics score outliers.
+   - Compares original and filtered dataset dimensions.
+
+6. Before-and-After Analysis
+   - Generates histograms to compare Mathematics score distributions before and after outlier removal.
+
+Notebook: Outlier_Detection_and_Treatment.ipynb
+
