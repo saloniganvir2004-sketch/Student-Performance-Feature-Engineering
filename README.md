@@ -161,3 +161,29 @@ This notebook demonstrates outlier identification and treatment techniques using
 
 Notebook: Outlier_Detection_and_Treatment.ipynb
 
+
+## Additional Implementation: Feature Scaling and Encoding
+
+This notebook demonstrates numerical feature scaling and categorical encoding techniques using Python, Pandas, NumPy, and Scikit-learn.
+
+### Implemented Techniques
+
+1. Standardization
+   - Uses StandardScaler.
+   - Standardizes Mathematics, Reading, and Writing scores.
+
+2. Min-Max Normalization
+   - Uses MinMaxScaler.
+   - Transforms numerical features into the range [0, 1].
+
+3. Categorical Encoding
+   - Implements one-hot encoding using Pandas get_dummies().
+   - Encodes gender, race/ethnicity, parental education, lunch, and test preparation course.
+   - Uses drop_first=True to avoid redundant dummy columns.
+
+4. Feature Analysis
+   - Examines transformed numerical features.
+   - Checks the dimensions of the encoded dataset.
+
+Notebook: Feature_Scaling_and_Encoding.ipynb
+
