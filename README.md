@@ -58,3 +58,32 @@ Student-Performance-Feature-Engineering/
 4. Run the feature engineering operations sequentially.
 5. Examine the generated features and observations.
 
+
+## Additional Implementation: Missing Value Handling Strategies
+
+This notebook demonstrates fundamental missing-value imputation techniques using Python, Pandas, NumPy, and Matplotlib.
+
+### Implemented Techniques
+
+1. Mean Imputation
+   - Calculates the mean of the Mathematics score.
+   - Replaces missing values with the calculated mean.
+
+2. Median Imputation
+   - Calculates the median Mathematics score.
+   - Uses median-based replacement for missing values.
+
+3. Mode Imputation
+   - Calculates the most frequently occurring Mathematics score.
+   - Replaces missing values using the mode.
+
+### Additional Features
+
+- Downloads the Students Performance in Exams dataset using Kaggle API.
+- Introduces artificial missing values into 10% of Mathematics scores.
+- Examines missing-value counts after imputation.
+- Compares original and mean-imputed score distributions using histograms.
+- Discusses the differences between mean, median, and mode imputation.
+
+Notebook: Missing_Value_Handling_Strategies.ipynb
+
